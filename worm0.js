@@ -15,4 +15,4 @@
   }else{
     console.log('worm matured');
   };
-});
+})();
