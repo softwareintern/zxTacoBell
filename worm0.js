@@ -1,8 +1,8 @@
 #!/usr/bin/env zx
 /** Challenge: Create a Computer Worm in JS
  * run some commands and log the output
- * Hint: remember chmod
- * Warning!! Use some sort of counter to limit this.  
+ * Warning!! Use some sort of counter to limit this.
+ * Bonus: create one that can be used from a remote file.
  */
  const path = require('path');
  const wormName = path.basename(__filename, '.js');
