@@ -1,6 +1,6 @@
 # zxdemo
 ### Some quick Bash + JS with ZX for a demo
-A quick intro to using https://github.com/google/zx.
+A quick tutorial to using https://github.com/google/zx
 
 1. part0.js uses node and child_process
 2. install zx
