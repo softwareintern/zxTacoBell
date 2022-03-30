@@ -8,14 +8,12 @@ const port = 3000;
  * something like `top` will never resolve
  */
 (function(){
-    const server = http.createServer(async (req, res)=>{
-        const uptime = await $`w`;
-        
-        console.log(uptime);
-        res.write(uptime.stdout);
-        res.end();
-    });
-    server.listen(port, ()=>{
-        console.log(`serving on port ${port}`);
-    });
+  const server = http.createServer(async (req, res)=>{
+    const uptime = await $`w`;
+    res.write(uptime.stdout);
+    res.end();
+  });
+  server.listen(port, ()=>{
+    console.log(`serving on port ${port}`);
+  });
 })();
