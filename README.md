@@ -8,6 +8,8 @@ A quick tutorial to using https://github.com/google/zx
 4. try some basic shell commands
 5. try `zx https://raw.githubusercontent.com/timBrockman/zxdemo/main/part1.js`
 6. part2.js output shell command to web interface to monitor server
-7. part3.js remove double req from favicon.ico, write chunks
-8. part4.js check user count over time output smileys
-9. worm0.js challenge solution create a worm using zx and the above info
+7. part3.js remove double req from favicon.ico
+8. write chunks for long stdout
+9. add .kill() to limit long running processes (top)
+10. part4.js check user count over time output smileys
+11. worm0.js challenge solution create a worm using zx and the above info
