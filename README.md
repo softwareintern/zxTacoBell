@@ -1,6 +1,7 @@
 # zxdemo
 ### Some quick Bash + JS with ZX for a demo
 A quick tutorial to using https://github.com/google/zx
+Briefly touted as a better bash, now a tool for better scripts, ZX wraps node's child process with some convenient features for shell scripting.
 
 1. part0.js uses node and child_process
 2. install zx
