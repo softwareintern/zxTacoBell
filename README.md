@@ -15,6 +15,7 @@ A quick tutorial to using https://github.com/google/zx
 11. use pipe uptime to grep and sed to extract number of users
 12. do this at some interval and cache it
 13. create a smiley chart for output
-14. part4.js serve chart of users over time
-15. worm0.js create a worm using zx and the above info
-16. wormChallenge.js challenge create a remote file that creates and executes worm0.js
+14. replace "await for of" for "on('data', function())"
+15. part4.js serve chart of users over time
+16. worm0.js create a worm using zx and the above info
+17. wormChallenge.js challenge create a remote file that creates and executes worm0.js
