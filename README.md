@@ -1,7 +1,7 @@
-# zxdemo
-### Some quick Bash + JS with ZX for a demo
+# zxTacoBell
+### Some quick Bash + JS with ZX
 A quick tutorial to using https://github.com/google/zx
-Briefly touted as a better bash, now a tool for better scripts, ZX wraps node's child process with some convenient features for shell scripting.
+ZX wraps node's child process with some convenient features for shell scripting.
 ## Taco Bell Programming Delivered to JS
 Taco Bell takes a few simple ingredients and creates a diverse menu of food, fast. Similarly, we can take a few standard GNU tools in linux and combine them to do a huge variety of things fast. A common combination would be using curl, grep, and sed to automatically pull some information from a web page or an api, and sift through the data.
 
