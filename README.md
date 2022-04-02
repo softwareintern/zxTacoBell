@@ -1,13 +1,17 @@
 # zxTacoBell
 ### Some quick Bash + JS with ZX
 A quick tutorial to using https://github.com/google/zx
-ZX wraps node's child process with some convenient features for shell scripting.
+
+- ***What it does:*** ZX wraps node's child process with some convenient features for shell scripting.
+- ***What we gain/learn:*** Shell access from Node.js becomes almost too easy for JavaScript devs not to take advantage of. The obvious use cases would be to build better config, install, or setup processes. Some not so obvious use cases would be to run a script remotely that could collect and store data.
+- ***Why:*** GUI users play by the rules, Shell users play with the rules. JavaScript devs can now unlock the mysterious super powers of ancient programmers, RPA Devs, DevSecOpses, SREs, Sys-Admins, Senior Data Scientists, and other Linuxy (and PowerShelly) neckbeards. Just because every HR ever failed to put Bash or PowerShell in the job description, doesn't mean you won't need this.
+
 ## Taco Bell Programming Delivered to JS
-Taco Bell takes a few simple ingredients and creates a diverse menu of food, fast. Similarly, we can take a few standard GNU tools in linux and combine them to do a huge variety of things fast. A common combination would be using curl, grep, and sed to automatically pull some information from a web page or an api, and sift through the data.
+Taco Bell takes a few simple ingredients and creates a diverse menu of food, fast. Similarly, we can take a few standard GNU tools in Linux and combine them to do a huge variety of things fast. A common combination would be using curl, grep, and sed to automatically pull some information from a web page or an api, and sift through the data.
 
 At first glance ZX appears focused on building command line tools to streamline config and build tasks. Make no mistake, these same modules can be used to conveniently store some Taco Bell recipies somewhere like GitHub, and run them from any machine. This could be dangerous.
 
-## Demo Outline
+## Intro Outline
 1. part0.js uses node and child_process
 2. install zx
 3. part1.js gives some basic zx debugging
