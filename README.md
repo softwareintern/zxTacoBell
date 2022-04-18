@@ -7,9 +7,9 @@ A quick tutorial to using https://github.com/google/zx
 - ***Why:*** GUI users play by the rules, Shell users play with the rules. JavaScript devs can now unlock the super powers of ancient programmers, RPA Devs, DevSecOpses, SREs, Sys-Admins, Senior Data Scientists, and other Linuxy (and PowerShelly) neckbeards.
 
 ## Taco Bell Programming Delivered to JS
-Taco Bell took a few simple ingredients and creates a diverse menu of food, fast. Similarly, we can take a few standard GNU tools in Linux and combine them to do a huge variety of things fast. A common combination would be using curl, grep, and sed to automatically pull some information from a web page or an api, and sift through the data.
+Taco Bell took a few simple ingredients and created a diverse menu of food, fast. Similarly, we can take a few standard GNU tools in Linux and combine them to do a huge variety of things fast. A common combination would be using curl, grep, and sed to automatically pull some information from a web page or an api, and sift through the data.
 
-At first glance ZX appears focused on building command line tools to streamline config and build tasks. Make no mistake, these same modules can be used to conveniently store some Taco Bell recipies somewhere like GitHub, and run them from any machine. This could be dangerous.
+At first glance, ZX appears focused on building command line tools to streamline config and build tasks. But, the possibilities are far greater. These same modules can be used to conveniently store some Taco Bell recipies somewhere like GitHub, and have them at your fingertips, waiting to run from any machine or desktop.
 
 ## Intro Outline
 1. part0.js uses node and child_process
