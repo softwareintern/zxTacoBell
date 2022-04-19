@@ -3,8 +3,8 @@
 A quick tutorial to using https://github.com/google/zx
 
 - ***What it does:*** ZX wraps node's child process with some convenient features for shell scripting.
-- ***What we gain/learn:*** Shell access from Node.js becomes easy for JavaScript devs to take advantage of. The obvious use cases would be to build better config, install, or setup processes. Some not so obvious use cases would be to run a script remotely that could collect and store data.
-- ***Why:*** GUI users play by the rules, Shell users play with the rules. JavaScript devs can now unlock the super powers of ancient programmers, RPA Devs, DevSecOpses, SREs, Sys-Admins, Senior Data Scientists, and other Linuxy (and PowerShelly) neckbeards.
+- ***What we gain/learn:*** Shell access from Node.js becomes easy for JavaScript devs to take advantage of. The obvious use cases would be to build better config, install, or setup processes. Some not so obvious use cases would be to post a script to remotely control some servers using JS, maybe to run tests, or other bot activities.
+- ***Why:*** GUI users play by the rules, Shell users play with the rules. JavaScript devs can now unlock the super powers of ancient programmers, RPA Devs, DevSecOpses, SREs, System Admins, Senior Data Scientists, and other Linuxy (and PowerShelly) neckbeards.
 
 ## 🌮🔔 Programming Delivered to JS
 Taco Bell (the restaurant) took a few simple ingredients wrapped them in a shell, and created a diverse menu of delicious food, fast. Similarly, we can take a few standard GNU tools in Linux and combine them in a shell script to do a huge variety of things fast. A common combination would be using curl, grep, and sed to automatically pull some information from a web page or an api, and sift through the data.
