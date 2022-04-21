@@ -7,7 +7,8 @@
  * w
  */
 (async function(){
-  const pOut = await $`touch foo.js; chmod +x foo.js; ls -l`;    
+  const fname = await question("Please enter a name: ");
+  const pOut = await $`touch ${fname}.js; chmod +x ${fname}.js; ls -l`;    
   console.log(pOut);
   console.log(pOut.stdout);
 })();
