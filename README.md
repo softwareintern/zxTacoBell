@@ -2,9 +2,9 @@
 ### JS is now on the 🌮🔔 menu with ZX
 A quick tutorial to using https://github.com/google/zx
 
-- ***What it does:*** ZX wraps node's child process with some convenient features for shell scripting.
-- ***What we gain/learn:*** Shell access from Node.js becomes easy for JavaScript devs to take advantage of. The obvious use cases would be to build better config, install, or setup processes. Some not so obvious use cases would be to post a script to remotely control some servers using JS, maybe to run tests, or other bot activities.
-- ***Why:*** GUI users play by the rules, Shell users play with the rules. JavaScript devs can now unlock the super powers of ancient programmers, RPA Devs, DevSecOpses, SREs, System Admins, Senior Data Scientists, and other Linuxy (and PowerShelly) neckbeards.
+- ***What we did without ZX:*** We would use Node's child_process to spawn or execute shell commands and readline to receive interactive prompt input from users. We would install things like chalk as needed. 
+- ***What we change by using ZX:*** Shell access from Node.js is wrapped for easy access. The obvious use cases would be to build better config, install, or setup processes. Some not so obvious use cases would be to post a script to remotely control some servers using JS, maybe to run tests or other bot activities.
+- ***Why it's important:*** GUI users play by the rules, Shell users play with the rules. JavaScript devs can now unlock the super powers of ancient programmers, RPA Devs, DevSecOpses, SREs, System Admins, Senior Data Scientists, and other Linuxy (and PowerShelly) neckbeards. In short you can use a simple one-liner that would take hours of time and volumes of code to replicate in JS, if it's even possible.
 
 ## 🌮🔔 Programming Delivered to JS
 Taco Bell (the restaurant) took a few simple ingredients wrapped them in a shell, and created a diverse menu of delicious food, fast. Similarly, we can take a few standard GNU tools in Linux and combine them in a shell script to do a huge variety of things fast. A common combination would be using curl, grep, and sed to automatically pull some information from a web page or an api, and sift through the data.
