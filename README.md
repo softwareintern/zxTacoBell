@@ -16,16 +16,18 @@ At first glance, ZX appears focused on building command line tools to streamline
 2. install zx
 3. part1.js gives some basic zx debugging
 4. try some basic shell commands
-5. try `zx https://raw.githubusercontent.com/softwareintern/zxdemo/main/part1.js`
-6. part2.js output shell command to web interface to monitor server
-7. remove double req from favicon.ico
-8. write chunks for long stdout
-9. add .kill() to limit long running processes (top)
-10. save as part3.js
-11. use pipe uptime to grep and sed to extract number of users
-12. do this at some interval and cache it
-13. create a smiley chart for output
-14. replace "await for of" for "on('data', function())"
-15. part4.js serve chart of users over time
-16. worm0.js create a worm using zx and the above info
-17. wormChallenge.js challenge create a remote file that creates and executes worm0.js
+5. try creating a file and chmoding it
+6. try question() for filename
+7. try `zx https://raw.githubusercontent.com/softwareintern/zxdemo/main/part1.js`
+8. part2.js output shell command to web interface to monitor server
+9. remove double req from favicon.ico
+10. write chunks for long stdout
+11. add .kill() to limit long running processes (top)
+12. save as part3.js
+13. use pipe uptime to grep and sed to extract number of users
+14. do this at some interval and cache it
+15. create a smiley chart for output
+16. replace "await for of" for "on('data', function())"
+17. part4.js serve chart of users over time
+18. worm0.js create a worm using zx and the above info
+19. wormChallenge.js challenge create a remote file that creates and executes worm0.js
