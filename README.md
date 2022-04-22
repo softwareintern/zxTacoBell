@@ -27,7 +27,7 @@ At first glance, ZX appears focused on building command line tools to streamline
 13. use pipe uptime to grep and sed to extract number of users
 14. do this at some interval and cache it
 15. create a smiley chart for output
-16. replace "await for of" for "on('data', function())"
+16. replace `for await of` with `on('data', function())`
 17. part4.js serve chart of users over time
 18. worm0.js create a worm using zx and the above info
 19. wormChallenge.js challenge create a remote file that creates and executes worm0.js
